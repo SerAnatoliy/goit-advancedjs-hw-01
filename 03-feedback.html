@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Feedback form</title>
-    
-    
-    <script type="module" crossorigin src="/vanilla-app-template/assets/modulepreload-polyfill-ec808ebb.js"></script>
-    <script type="module" crossorigin src="/vanilla-app-template/assets/vendor-78be7656.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-8c8fa3ea.css">
-    <link rel="stylesheet" href="/vanilla-app-template/assets/03-feedback-d9993e99.css">
-    <link rel="stylesheet" href="/vanilla-app-template/assets/common-24e32714.css">
-  </head>
-  <body>
-    <p><a href="index.html">Go back</a></p>
 
-    <form class="feedback-form" autocomplete="off">
-      <label>
-        Email
-        <input type="email" name="email" autofocus />
-      </label>
-      <label>
-        Message
-        <textarea name="message" rows="8"></textarea>
-      </label>
-      <button type="submit">Submit</button>
-    </form>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback form</title>
+  
+  
+  <script type="module" crossorigin src="/vanilla-app-template/commonHelpers3.js"></script>
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-ec808ebb.js">
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-78be7656.js">
+  <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-8c8fa3ea.css">
+  <link rel="stylesheet" href="/vanilla-app-template/assets/03-feedback-d9993e99.css">
+  <link rel="stylesheet" href="/vanilla-app-template/assets/common-24e32714.css">
+</head>
 
-    
-  </body>
+<body>
+  <p><a href="index.html">Go back</a></p>
+
+  <form class="feedback-form js-feedback-form" autocomplete="off">
+    <label>
+      Email
+      <input type="email" name="email" autofocus />
+    </label>
+    <label>
+      Message
+      <textarea name="message" rows="8"></textarea>
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+
+  
+</body>
+
 </html>
